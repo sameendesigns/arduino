@@ -1,3 +1,21 @@
+//SOCIAL DISTANCING MANAGER GAME FOR KIDS//
+INSTRUCTIONS
+Attach ultrasonic sensor  to the breadboard and then do the following:	
+	add the GROUND wire to the ground slot in the Arduino board
+VCC to the 5V slot
+TRIG to 12 pin
+ECHO to 13 pin
+2. Attach 5 LEDs evenly spaced out. Add the negative(small leg) to the negative side of the breadboard.
+3. Then add 220ohm resistor to each LED’s positive side(longer leg).
+4. Then add wires to each resistor and put them in slots 2 to 8.
+5. Then add a ground wire to the negative side of the LEDs and put it in the ground pin of the Arduino board.
+6. Add buzzer anywhere on the board. 
+7. Add wire to the negative side of the buzzer and put it on ground pin in Arduino board.
+8. Add wire to the positive side and use it on pin 11.
+9. Upload the code and let it run.
+//////////////////
+
+
 const int trig = 12;
 const int echo = 13;
 const int sound = 11;
